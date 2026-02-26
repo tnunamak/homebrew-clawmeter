@@ -1,6 +1,8 @@
 name: Update Formula
 
 on:
+  schedule:
+    - cron: '0 */6 * * *'  # every 6 hours
   repository_dispatch:
     types: [update-formula]
   workflow_dispatch:
