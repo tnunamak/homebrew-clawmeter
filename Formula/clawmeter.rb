@@ -1,8 +1,8 @@
 class Clawmeter < Formula
   desc "Claude Code usage monitor with system tray"
   homepage "https://github.com/tnunamak/clawmeter"
-  url "https://github.com/tnunamak/clawmeter/archive/refs/tags/v0.61.5.tar.gz"
-  sha256 "7d7a609233290e73c59b7daedef9a0fb65841b1e20f6f23392771f62be95547d"
+  url "https://github.com/tnunamak/clawmeter/archive/refs/tags/v0.63.0.tar.gz"
+  sha256 "7cdb83b1a18c78b30cbc34dbba48c38f76974555cf8abdbdbf3190e100ece311"
   license "MIT"
 
   depends_on "go" => :build
